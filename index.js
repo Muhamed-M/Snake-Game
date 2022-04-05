@@ -216,7 +216,7 @@ window.addEventListener('keydown', (e) => {
     if (e.keyCode === 13 && !game.running) {
         endSound.pause();
         soundtrack1.load();
-        //soundtrack1.play();
+        soundtrack1.play();
         snake.position.x = 10;
         snake.position.y = 10;
         snake.velocity.x = 1;
