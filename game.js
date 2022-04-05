@@ -4,7 +4,7 @@ export default class Game {
         this.height = 620;
         this.grid = 30;
         this.cellSize = 600 / this.grid;
-        this.speed = 7;
+        this.speed = 14;
         this.gameOver = false;
         this.running = false;
         
