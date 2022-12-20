@@ -150,6 +150,11 @@ function collision() {
         eatingSound.play();
     }
     
+    // Increase speed and difficulty of the game
+    if (score > 10) {
+        game.speed = 15;
+    }
+    
     // COLLISION DETECTION BETWEEN SNAKE TAIL AND SNAKE HEAD
     snake.tail.forEach((t) => {
         if (snake.position.x == t.position.x && snake.position.y == t.position.y) {
