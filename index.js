@@ -153,7 +153,7 @@ function collision() {
     // Increase speed and difficulty of the game
     if (score > 3) {
         console.log('radi');
-        game.speed = 3;
+        game.speed = 13;
     }
     
     // COLLISION DETECTION BETWEEN SNAKE TAIL AND SNAKE HEAD
