@@ -148,12 +148,13 @@ function collision() {
         snake.tailSize++;
         score++;
         eatingSound.play();
-    }
-    
-    // Increase speed and difficulty of the game
+        
+        // Increase speed and difficulty of the game
     if (score > 3) {
-        console.log('radi');
-        game.speed = 13;
+        console.log(game.speed);
+        game.speed = 15;
+        console.log(game.speed)
+    }
     }
     
     // COLLISION DETECTION BETWEEN SNAKE TAIL AND SNAKE HEAD
